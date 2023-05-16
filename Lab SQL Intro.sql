@@ -4,7 +4,7 @@ FROM actor, customer, film;
 
 SELECT title FROM film;
 
-SELECT *
+SELECT name AS language
 FROM language;
 
 SELECT count(store_ID)
