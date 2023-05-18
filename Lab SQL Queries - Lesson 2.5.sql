@@ -78,7 +78,7 @@ SELECT title, length
 FROM sakila.film
 WHERE (length > 0)
 ORDER BY length
-DESC LIMIT 10;
+LIMIT 10;
 
 -- 13. How many films include Behind the Scenes content? -- 
 
